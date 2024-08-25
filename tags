@@ -1,0 +1,169 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/weiluo/pinball-machine/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+%.o	makefile	/^%.o:%.c *.h$/;"	t
+ActionFunction	linkedlist.h	/^typedef void (* ActionFunction) (void *data);$/;"	t	typeref:typename:void (*)(void * data)
+ActionFunction	typedef.h	/^typedef void (* ActionFunction) (void *data);$/;"	t	typeref:typename:void (*)(void * data)
+BONUS	debug.h	/^#define BONUS /;"	d
+Ball	structs.h	/^struct Ball$/;"	s
+COLOR_MASK	bits.c	/^#define COLOR_MASK /;"	d	file:
+COLOR_SHIFT	bits.c	/^#define COLOR_SHIFT /;"	d	file:
+ComparisonFunction	linkedlist.h	/^typedef bool (* ComparisonFunction) (void *data1, void *data2);$/;"	t	typeref:typename:bool (*)(void * data1,void * data2)
+ComparisonFunction	typedef.h	/^typedef bool (* ComparisonFunction) (void *data1, void *data2);$/;"	t	typeref:typename:bool (*)(void * data1,void * data2)
+CriteriaFunction	linkedlist.h	/^typedef bool (* CriteriaFunction) (void *data);$/;"	t	typeref:typename:bool (*)(void * data)
+CriteriaFunction	typedef.h	/^typedef bool (* CriteriaFunction) (void *data);$/;"	t	typeref:typename:bool (*)(void * data)
+DEBUG	debug.h	/^#define DEBUG /;"	d
+DELTA_T	constants.h	/^#define DELTA_T /;"	d
+FIVE	physics.c	/^#define FIVE	/;"	d	file:
+FLIPPER_MAX_X_LEFT	physics.c	/^#define FLIPPER_MAX_X_LEFT /;"	d	file:
+FLIPPER_MAX_X_RIGHT	physics.c	/^#define FLIPPER_MAX_X_RIGHT /;"	d	file:
+FLIPPER_MAX_Y_LEFT	physics.c	/^#define FLIPPER_MAX_Y_LEFT /;"	d	file:
+FLIPPER_MAX_Y_RIGHT	physics.c	/^#define FLIPPER_MAX_Y_RIGHT /;"	d	file:
+FLIPPER_MIN_X_LEFT	physics.c	/^#define FLIPPER_MIN_X_LEFT /;"	d	file:
+FLIPPER_MIN_X_RIGHT	physics.c	/^#define FLIPPER_MIN_X_RIGHT /;"	d	file:
+FLIPPER_MIN_Y_LEFT	physics.c	/^#define FLIPPER_MIN_Y_LEFT /;"	d	file:
+FLIPPER_MIN_Y_RIGHT	physics.c	/^#define FLIPPER_MIN_Y_RIGHT /;"	d	file:
+FLIPPER_VX	physics.c	/^#define FLIPPER_VX	/;"	d	file:
+FLIPPER_VY	physics.c	/^#define FLIPPER_VY	/;"	d	file:
+FOUR	output.c	/^#define FOUR	/;"	d	file:
+GRAPHICS	debug.h	/^#define GRAPHICS /;"	d
+GRAVITY	physics.c	/^#define GRAVITY	/;"	d	file:
+HALF	physics.c	/^#define HALF	/;"	d	file:
+HALF_CIRCLE	physics.c	/^#define HALF_CIRCLE	/;"	d	file:
+INELASTIC	physics.c	/^#define INELASTIC	/;"	d	file:
+LEFT_LIMIT	physics.c	/^#define LEFT_LIMIT	/;"	d	file:
+LOWER_LIMIT	physics.c	/^#define LOWER_LIMIT	/;"	d	file:
+MILLION	output.c	/^#define MILLION	/;"	d	file:
+M_PI	constants.h	/^# define M_PI /;"	d
+Node	linkedlist.c	/^typedef struct Node{$/;"	s	file:
+Node	linkedlist.c	/^} Node;$/;"	t	typeref:struct:Node	file:
+Node	node.h	/^	}Node;$/;"	t	typeref:struct:Node
+Node	node.h	/^typedef struct Node{$/;"	s
+ONE	physics.c	/^#define ONE	/;"	d	file:
+RIGHT_LIMIT	physics.c	/^#define RIGHT_LIMIT	/;"	d	file:
+STATUS_IN_PLAY	bits.c	/^#define STATUS_IN_PLAY /;"	d	file:
+STATUS_MASK	bits.c	/^#define STATUS_MASK /;"	d	file:
+STATUS_SHIFT	bits.c	/^#define STATUS_SHIFT /;"	d	file:
+Sim	structs.h	/^struct Sim$/;"	s
+TEXT	debug.h	/^#define TEXT /;"	d
+THOUSAND	output.c	/^#define THOUSAND	/;"	d	file:
+TWO	physics.c	/^#define TWO	/;"	d	file:
+UPPER_LIMIT	physics.c	/^#define UPPER_LIMIT	/;"	d	file:
+VERBOSE	debug.h	/^#define VERBOSE /;"	d
+VX	structs.h	/^	double X, Y, VX, VY;$/;"	m	struct:Ball	typeref:typename:double
+VY	structs.h	/^	double X, Y, VX, VY;$/;"	m	struct:Ball	typeref:typename:double
+X	structs.h	/^	double X, Y, VX, VY;$/;"	m	struct:Ball	typeref:typename:double
+Y	structs.h	/^	double X, Y, VX, VY;$/;"	m	struct:Ball	typeref:typename:double
+all	makefile	/^all:  tags headers lab4$/;"	t
+allocate_ball	memory.c	/^struct Ball *allocate_ball()$/;"	f	typeref:struct:Ball *
+allocate_node	linkedlist.c	/^static Node *allocate_node(int text) {$/;"	f	typeref:typename:Node *	file:
+alwaysTrue	pins.c	/^bool alwaysTrue(void *data) {$/;"	f	typeref:typename:bool
+always_true	sim.c	/^bool always_true(void *data)$/;"	f	typeref:typename:bool
+ball_score	sim.c	/^int ball_score(struct Ball *bp)$/;"	f	typeref:typename:int
+balls_in_play	sim.c	/^bool balls_in_play(struct Sim *table)$/;"	f	typeref:typename:bool
+bits	structs.h	/^	unsigned char bits;$/;"	m	struct:Ball	typeref:typename:unsigned char
+clear_a_list	sim.c	/^static void clear_a_list(char *name, void *address_of_head)$/;"	f	typeref:typename:void	file:
+clear_lists	sim.c	/^void clear_lists(struct Sim *table)$/;"	f	typeref:typename:void
+color	structs.h	/^	int color;$/;"	m	struct:Ball	typeref:typename:int
+color_string	output.c	/^static char *color_string(int color) {$/;"	f	typeref:typename:char *	file:
+compare	pdel.c	/^bool compare(void *data1, void *data2) {$/;"	f	typeref:typename:bool
+compare	pite.c	/^bool compare(void *data1, void *data2) {$/;"	f	typeref:typename:bool
+compare	psor.c	/^bool compare(void *data1, void *data2) {$/;"	f	typeref:typename:bool
+constraints	physics.c	/^void constraints( struct Ball *bp)$/;"	f	typeref:typename:void
+data	linkedlist.c	/^	void *data;$/;"	m	struct:Node	typeref:typename:void *	file:
+data	node.h	/^	void *data;$/;"	m	struct:Node	typeref:typename:void *
+dead_balls	sim.c	/^void dead_balls(struct Sim *table)$/;"	f	typeref:typename:void
+deleteSome	linkedlist.c	/^int deleteSome(void *p2head, CriteriaFunction mustGo, ActionFunction disposal, int text) {$/;"	f	typeref:typename:int
+draw_ball	output.c	/^static void draw_ball(void *data)$/;"	f	typeref:typename:void	file:
+duration	structs.h	/^	double duration;$/;"	m	struct:Ball	typeref:typename:double
+et	structs.h	/^	double et;$/;"	m	struct:Sim	typeref:typename:double
+final_actions	sim.c	/^void final_actions(struct Sim *table)$/;"	f	typeref:typename:void
+final_graphics	output.c	/^static void final_graphics(struct Sim *table)$/;"	f	typeref:typename:void	file:
+final_output	output.c	/^void final_output(struct Sim *table)$/;"	f	typeref:typename:void
+final_text	output.c	/^static void final_text(struct Sim *table)$/;"	f	typeref:typename:void	file:
+foo	ps1.h	/^void foo(){};$/;"	f	typeref:typename:void
+force	structs.h	/^	double theta, force;$/;"	m	struct:Ball	typeref:typename:double
+free_ball	memory.c	/^void free_ball(void *data)$/;"	f	typeref:typename:void
+free_node	linkedlist.c	/^static void free_node(void *data, int text) {$/;"	f	typeref:typename:void	file:
+get_color	bits.c	/^int get_color(unsigned char bits)$/;"	f	typeref:typename:int
+goesInfrontOf	pins.c	/^bool goesInfrontOf(void *data1, void *data2) {$/;"	f	typeref:typename:bool
+headers	makefile	/^headers: *.c tags$/;"	t
+init	lab4.c	/^bool init()$/;"	f	typeref:typename:bool
+insert	linkedlist.c	/^bool insert(void *p2head, void *data, ComparisonFunction goesInFrontOf, int text) {$/;"	f	typeref:typename:bool
+inverseCompare	psor.c	/^bool inverseCompare(void *data1, void *data2) {$/;"	f	typeref:typename:bool
+isRun	lab4.c	/^static bool isRun(int argc) {$/;"	f	typeref:typename:bool	file:
+iterate	linkedlist.c	/^void iterate(void *head, ActionFunction doThis) {$/;"	f	typeref:typename:void
+lab4	makefile	/^lab4: lab4.o bits.o input.o memory.o output.o physics.o linkedlist.o sim.o n2.o reliable.o$/;"	t
+lab4.zip	makefile	/^lab4.zip: makefile *.c *.h n2.o reliable.o unreliable.o README_LAB4 libpb.a liblinkedlist.a$/;"	t
+lab4u	makefile	/^lab4u: lab4.o bits.o input.o memory.o output.o physics.o linkedlist.o sim.o n2.o unreliable.o$/;"	t
+launch_ball	sim.c	/^void launch_ball(struct Sim *table, struct Ball *sbp)$/;"	f	typeref:typename:void
+launch_message	output.c	/^void launch_message( struct Ball *bp)$/;"	f	typeref:typename:void
+left_flipper	physics.c	/^static void left_flipper( struct Ball *bp)$/;"	f	typeref:typename:void	file:
+left_flipper_message	output.c	/^void left_flipper_message( struct Ball *bp)$/;"	f	typeref:typename:void
+left_message	output.c	/^void left_message( struct Ball *bp)$/;"	f	typeref:typename:void
+left_wall	physics.c	/^static void left_wall(struct Ball *bp)$/;"	f	typeref:typename:void	file:
+load2launch	sim.c	/^static struct Ball load2launch(struct Ball *inbound)$/;"	f	typeref:struct:Ball	file:
+load_message	output.c	/^void load_message( struct Ball *bp)$/;"	f	typeref:typename:void
+main	lab4.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	pdel.c	/^int main() {$/;"	f	typeref:typename:int
+main	pins.c	/^int main() {$/;"	f	typeref:typename:int
+main	pite.c	/^int main() {$/;"	f	typeref:typename:int
+main	psor.c	/^int main() {$/;"	f	typeref:typename:int
+master_graphics	output.c	/^static void master_graphics(struct Sim *table)$/;"	f	typeref:typename:void	file:
+master_output	output.c	/^void master_output(struct Sim *table)$/;"	f	typeref:typename:void
+master_text	output.c	/^static void master_text(struct Sim *table)$/;"	f	typeref:typename:void	file:
+move	physics.c	/^void move(double dt, struct Ball *bp)$/;"	f	typeref:typename:void
+next	linkedlist.c	/^	struct Node *next;$/;"	m	struct:Node	typeref:struct:Node *	file:
+next	node.h	/^	struct Node *next;$/;"	m	struct:Node	typeref:struct:Node *
+off_message	output.c	/^void off_message( struct Ball *bp)$/;"	f	typeref:typename:void
+off_table	physics.c	/^bool off_table(void *data)	$/;"	f	typeref:typename:bool
+offlist	structs.h	/^	void *offlist;	\/* sort by duration *\/$/;"	m	struct:Sim	typeref:typename:void *
+on_table	physics.c	/^bool on_table(struct Ball *bp)$/;"	f	typeref:typename:bool
+open_run	lab4.c	/^void open_run(char *argv[], bool flag) {$/;"	f	typeref:typename:void
+pdel	makefile	/^pdel: pdel.o linkedlist.o reliable.o$/;"	t
+pinball-machine	README.md	/^# pinball-machine/;"	c
+pins	makefile	/^pins: pins.o linkedlist.o reliable.o $/;"	t
+pite	makefile	/^pite: pite.o linkedlist.o reliable.o$/;"	t
+playlist	structs.h	/^	void *playlist; \/* sort by Y *\/$/;"	m	struct:Sim	typeref:typename:void *
+playlist_to_offlist	sim.c	/^void playlist_to_offlist(void *data)$/;"	f	typeref:typename:void
+points_message	output.c	/^void points_message(int points)$/;"	f	typeref:typename:void
+polar2cart	physics.c	/^void polar2cart(struct Ball *bp)$/;"	f	typeref:typename:void
+print	pdel.c	/^void print(void *data) {$/;"	f	typeref:typename:void
+print	pins.c	/^void print(void *data) {$/;"	f	typeref:typename:void
+print	pite.c	/^void print(void *data) {$/;"	f	typeref:typename:void
+print	psor.c	/^void print(void *data) {$/;"	f	typeref:typename:void
+print_ball	output.c	/^void print_ball(void *data)$/;"	f	typeref:typename:void
+print_ball_scores	output.c	/^void print_ball_scores(void *data)$/;"	f	typeref:typename:void
+print_header	output.c	/^static void print_header(double et, int score)$/;"	f	typeref:typename:void	file:
+psor	makefile	/^psor: psor.o linkedlist.o reliable.o$/;"	t
+read_all	input.c	/^bool read_all(struct Sim *table, FILE *fp)$/;"	f	typeref:typename:bool
+read_and_run	lab4.c	/^void read_and_run(FILE *fp)$/;"	f	typeref:typename:void
+right_flipper	physics.c	/^static void right_flipper( struct Ball *bp)$/;"	f	typeref:typename:void	file:
+right_flipper_message	output.c	/^void right_flipper_message( struct Ball *bp)$/;"	f	typeref:typename:void
+right_message	output.c	/^void right_message( struct Ball *bp)$/;"	f	typeref:typename:void
+right_wall	physics.c	/^static void right_wall( struct Ball *bp)$/;"	f	typeref:typename:void	file:
+run_sim	sim.c	/^void run_sim(struct Sim *table)$/;"	f	typeref:typename:void
+score	structs.h	/^	int score;	\/* 2 biliion ought to suffice *\/$/;"	m	struct:Sim	typeref:typename:int
+set_in_play	bits.c	/^unsigned char set_in_play(unsigned char bits)$/;"	f	typeref:typename:unsigned char
+sort	linkedlist.c	/^void sort(void *hptr, ComparisonFunction cf) {$/;"	f	typeref:typename:void
+sort_by_VY	sim.c	/^bool sort_by_VY(void *data1, void *data2)$/;"	f	typeref:typename:bool
+sort_by_Y	sim.c	/^bool sort_by_Y(void *data1, void *data2)$/;"	f	typeref:typename:bool
+swap_data	linkedlist.c	/^static void swap_data(void *data1, void *data2) {$/;"	f	typeref:typename:void	file:
+table	structs.h	/^	struct Sim *table;$/;"	m	struct:Ball	typeref:struct:Sim *
+tags	makefile	/^tags: *.c$/;"	t
+teardown	lab4.c	/^void teardown()$/;"	f	typeref:typename:void
+theta	structs.h	/^	double theta, force;$/;"	m	struct:Ball	typeref:typename:double
+top_message	output.c	/^void top_message( struct Ball *bp)$/;"	f	typeref:typename:void
+top_wall	physics.c	/^static void top_wall( struct Ball *bp)$/;"	f	typeref:typename:void	file:
+under_five	pdel.c	/^bool under_five(void *data) {$/;"	f	typeref:typename:bool
+update_ball	physics.c	/^void update_ball( void * data)	$/;"	f	typeref:typename:void
+update_table	sim.c	/^void update_table(struct Sim *table)$/;"	f	typeref:typename:void
+x_message	output.c	/^static void x_message( char *string,  struct Ball *bp)$/;"	f	typeref:typename:void	file:
